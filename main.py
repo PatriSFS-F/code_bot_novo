@@ -102,8 +102,8 @@ async def on_presence_update(before, after):
         if streaming_activity and role not in after.roles:
             try:
                 await after.add_roles(role)
-                        print(f'Cargo "{ROLE_NAME}" atribuído a {after.display_name}')
-                        print(f'Cargo "{ROLE_NAME}" atribuído a {after.display_name}')
+                print(f'Cargo "{ROLE_NAME}" atribuído a {after.display_name}')
+                print(f'Cargo "{ROLE_NAME}" atribuído a {after.display_name}')
                         
                         # Envia a mensagem para o canal específico
                 print(f'Cargo "{ROLE_NAME}" atribuído a {after.display_name}')
